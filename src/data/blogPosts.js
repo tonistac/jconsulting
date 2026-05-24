@@ -1,0 +1,88 @@
+export const blogPosts = [
+  {
+    id: 1,
+    slug: 'ai-enterprise-transformation-2025',
+    category: 'Technology',
+    title: "The CTO's Guide to AI-Native Enterprise Architecture in 2025",
+    excerpt:
+      'How leading organizations are moving beyond AI pilots to build sustainable competitive advantages through foundational model infrastructure and MLOps.',
+    author: 'Dr. Amara Singh',
+    authorRole: 'MD, Technology Practice',
+    authorInitials: 'AS',
+    date: 'May 12, 2025',
+    readTime: '8 min read',
+    featured: true,
+  },
+  {
+    id: 2,
+    slug: 'capital-structure-private-markets',
+    category: 'Finance',
+    title: 'Navigating Capital Structure Complexity in Volatile Private Markets',
+    excerpt:
+      'A framework for CFOs and finance leaders on optimizing the capital stack when traditional debt markets tighten and alternative financing becomes essential.',
+    author: 'Catherine Leblanc',
+    authorRole: 'MD, Finance Practice',
+    authorInitials: 'CL',
+    date: 'Apr 28, 2025',
+    readTime: '6 min read',
+    featured: false,
+  },
+  {
+    id: 3,
+    slug: 'zero-trust-healthcare',
+    category: 'Cybersecurity',
+    title: "Zero Trust Is Not a Product — It's a Philosophy",
+    excerpt:
+      'Why most enterprise zero-trust implementations fail at the cultural and process layer, and a proven framework for making it stick across large organizations.',
+    author: 'Robert Tanaka',
+    authorRole: 'VP, Cybersecurity',
+    authorInitials: 'RT',
+    date: 'Apr 10, 2025',
+    readTime: '7 min read',
+    featured: false,
+  },
+  {
+    id: 4,
+    slug: 'canada-digital-leadership',
+    category: 'Strategy',
+    title: "Canada's Moment: Building Global Digital Champions from Toronto",
+    excerpt:
+      "An analysis of Canada's emerging position as a global hub for AI and financial technology, and what it means for strategy and investment allocation.",
+    author: 'James Okafor',
+    authorRole: 'Founder & CEO',
+    authorInitials: 'JO',
+    date: 'Mar 25, 2025',
+    readTime: '10 min read',
+    featured: false,
+  },
+  {
+    id: 5,
+    slug: 'devsecops-enterprise-adoption',
+    category: 'Technology',
+    title: 'DevSecOps Maturity at Scale: Beyond the DORA Metrics',
+    excerpt:
+      "Why high DORA scores don't automatically mean secure software delivery, and the missing security integration layer that enterprise DevOps programs often overlook.",
+    author: 'Dr. Amara Singh',
+    authorRole: 'MD, Technology Practice',
+    authorInitials: 'AS',
+    date: 'Mar 8, 2025',
+    readTime: '9 min read',
+    featured: false,
+  },
+  {
+    id: 6,
+    slug: 'change-management-transformation',
+    category: 'Strategy',
+    title: 'The 70% Problem: Why Transformations Fail at the Human Layer',
+    excerpt:
+      'New research on why most large-scale change programs underperform, and the behavioral science approaches that actually move organizations forward.',
+    author: 'James Okafor',
+    authorRole: 'Founder & CEO',
+    authorInitials: 'JO',
+    date: 'Feb 14, 2025',
+    readTime: '11 min read',
+    featured: false,
+  },
+]
+
+export const blogCategories = ['All', 'Technology', 'Finance', 'Strategy', 'Cybersecurity']
